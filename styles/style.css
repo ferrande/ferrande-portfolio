@@ -1,5 +1,14 @@
+:root {
+    --background-colour: #0A0E1A;
+    --white-500: #F0F0F0;
+    --white-700: #F0F0F0b3;
+    --accent-colour: #F5C000;
+
+    --main-font-family: 'Libre Franklin', sans-serif
+}
+
 body {
-    font-family: 'Libre Franklin', sans-serif;
-    background-color: #262626;
-    color: #F5C000;
+    font-family: var(--main-font-family);
+    background-color: var(--background-colour);
+    color: var(--white-500);
 }
