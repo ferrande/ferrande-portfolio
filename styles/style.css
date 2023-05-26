@@ -12,3 +12,74 @@ body {
     background: var(--background-colour);
     color: var(--white-500);
 }
+
+header {
+    margin: 120px 120px;
+    height: 1024px;
+}
+
+.headings {
+    margin-bottom: 76px;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 3.75rem;
+    color: var(--accent-colour);
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+nav {
+    margin-bottom: 360px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li.nav-link:not(:last-child) {
+    margin-left: 0;
+    margin-bottom: 18px;
+}
+
+li.nav-link {
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--white-700);
+}
+
+li a {
+    color: var(--white-700);
+}
+
+li a:hover {
+    color: var(--white-500);
+    text-decoration: underline var(--accent-colour) 2px;
+}
+
+li.current a {
+    color: var(--white-500);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.social-icon {
+    font-size: 1.75rem;
+    margin-right: 26px;
+    color: var(--white-700);
+}
+
+.social-icon:hover {
+    color: var(--white-500);
+}
