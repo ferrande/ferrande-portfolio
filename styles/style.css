@@ -124,6 +124,11 @@ a.contact-button {
     border: 1px solid var(--accent-colour);
     border-radius: 8px;
     margin: 24px 0;
+    transition: 0.2s all ease-in;
+}
+
+a.contact-button:hover {
+    box-shadow: 0.3em 0.3em 0 0 var(--accent-colour);
 }
 
 p span {
