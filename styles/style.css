@@ -1,13 +1,14 @@
 :root {
     --background-colour: linear-gradient(180deg, #112243 0%, #070C1C 53.36%, #01040C 100%);
     --white-500: #F0F0F0;
-    --white-700: #F0F0F0b3;
+    --white-700: #e5eeffb3;
     --accent-colour: #F5C000;
 
     --main-font-family: 'Libre Franklin', sans-serif
 }
 
 body {
+    word-spacing: 2px;
     font-family: var(--main-font-family);
     background: var(--background-colour);
     color: var(--white-500);
@@ -82,7 +83,7 @@ a.hover-underline-animation {
     height: 3px;
     bottom: 0;
     left: 0;
-    background-color: #ffd900;
+    background-color: var(--accent-colour);
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
   }
@@ -104,6 +105,35 @@ a.hover-underline-animation {
 
 main {
     margin: 120px 240px 120px 0;
+    padding: 0 120px 0 20px;
     height: 1024px;
 }
 
+p.main-text {
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--white-700);
+}
+
+a.contact-button {
+    display: block;
+    width: fit-content;
+    color: var(--accent-colour);
+    font-size: 1.125rem;
+    padding: 16px 18px;
+    border: 1px solid var(--accent-colour);
+    border-radius: 8px;
+    margin: 24px 0;
+}
+
+p span {
+    font-weight: bold;
+    color: var(--white-500);
+}
+
+.footer {
+    position: absolute;
+    top: 800px;
+    color: var(--white-700);
+    font-weight: 100;
+}
