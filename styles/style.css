@@ -1,5 +1,5 @@
 :root {
-    --background-colour: #0A0E1A;
+    --background-colour: linear-gradient(180deg, #112243 0%, #070C1C 53.36%, #01040C 100%);
     --white-500: #F0F0F0;
     --white-700: #F0F0F0b3;
     --accent-colour: #F5C000;
@@ -9,6 +9,6 @@
 
 body {
     font-family: var(--main-font-family);
-    background-color: var(--background-colour);
+    background: var(--background-colour);
     color: var(--white-500);
 }
