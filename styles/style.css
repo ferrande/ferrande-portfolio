@@ -59,7 +59,7 @@ li a {
 
 li a:hover {
     color: var(--white-500);
-    text-decoration: underline var(--accent-colour) 2px;
+    text-decoration: underline var(--accent-colour) 3px;
 }
 
 li.current a {
