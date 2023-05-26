@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    margin: 120px 120px;
+    margin: 120px 0 120px 240px;
     height: 1024px;
 }
 
@@ -101,3 +101,9 @@ a.hover-underline-animation {
 .social-icon:hover {
     color: var(--white-500);
 }
+
+main {
+    margin: 120px 240px 120px 0;
+    height: 1024px;
+}
+
