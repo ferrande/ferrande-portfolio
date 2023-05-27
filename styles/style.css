@@ -14,6 +14,18 @@ body {
     color: var(--white-500);
 }
 
+@media (max-width: 480px) {           
+    header h1 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    header h2 {
+        text-align: center;
+        font-size: 1rem;
+    }
+}
+
 header {
     margin: 120px 0 120px 240px;
     height: 1024px;
@@ -105,7 +117,7 @@ a.hover-underline-animation {
 
 main {
     margin: 120px 240px 120px 0;
-    padding: 0 120px 0 20px;
+    padding: 0 0 0 20px;
     height: 1024px;
 }
 
@@ -141,4 +153,43 @@ p span {
     top: 780px;
     color: var(--white-700);
     font-weight: 100;
+}
+
+.project:not(:last-child) {
+    margin-bottom: 3.25rem;
+}
+
+img.project-image {
+    border: 3px solid var(--white-700);
+    border-radius: 6px;
+    transition: 0.1s all ease-in;
+    width: 27.3vw;
+}
+
+img.project-image:hover {
+    border: 3px solid var(--accent-colour);
+    border-radius: 6px;
+}
+
+.project-title {
+    font-size: 1.125rem;
+    margin-bottom: 16px;
+}
+
+.project-title:hover {
+    color: var(--accent-colour);
+}
+
+.project-description {
+    font-size: 0.9rem;
+    color: var(--white-700);
+}
+
+i.external-link {
+    margin-left: 6px;
+    font-size: 0.875rem;
+}
+
+a {
+    color: var(--white-500);
 }
