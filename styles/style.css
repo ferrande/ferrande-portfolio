@@ -14,18 +14,6 @@ body {
     color: var(--white-500);
 }
 
-@media (max-width: 480px) {           
-    header h1 {
-        text-align: center;
-        font-size: 2rem;
-    }
-
-    header h2 {
-        text-align: center;
-        font-size: 0.875rem;
-    }
-}
-
 header {
     margin: 120px 0 120px 240px;
     height: 1024px;
@@ -192,4 +180,26 @@ i.external-link {
 
 a {
     color: var(--white-500);
+}
+
+
+
+@media (max-width: 480px) {
+    li.nav-link {
+        display: inline;
+    }
+
+    header h1 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    header h2 {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    nav {
+        margin-bottom: 15px;
+    }
 }
