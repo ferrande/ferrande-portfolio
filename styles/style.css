@@ -43,6 +43,11 @@ ul {
     padding: 0;
 }
 
+ul.social-icons {
+    display: flex;
+    justify-content: baseline;
+}
+
 li.nav-link:not(:last-child) {
     margin-left: 0;
     margin-bottom: 18px;
@@ -189,6 +194,15 @@ a {
         display: inline;
     }
 
+    .headings {
+        margin-bottom: 48px;
+    }
+
+    header {
+        margin: 48px auto 0;
+        height: auto;
+    }
+
     header h1 {
         text-align: center;
         font-size: 2rem;
@@ -200,6 +214,47 @@ a {
     }
 
     nav {
-        margin-bottom: 15px;
+        margin-bottom: 24px;
+        text-align: center;
+    }
+
+    ul.social-icons {
+        justify-content: center;
+    }
+
+    main {
+        margin: 48px auto 0;
+        padding: 0 24px;
+        text-align: justify;
+        height: 200vh;
+    }
+
+    a.contact-button {
+        margin: 12px auto 24px;
+    } 
+
+    img.project-image {
+        width: 100%;
+    }
+
+    h3.project-title {
+        margin: 6px;
+        font-size: 1.4rem;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    p.project-description {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    div.footer {
+        position: static;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 0px;
+        text-align: center;
     }
 }
